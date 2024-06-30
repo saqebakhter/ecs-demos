@@ -4,6 +4,11 @@ resources:
   - linux-ubuntu-vm.yaml
   - web-server.yaml
   - esx-ntp-config.yaml
+  - ai_edge_1.yaml
+  - ai_edge_2.yaml
+  - ai_edge_3.yaml
+  - k8s-dashboard.yaml
+
 patches:
   - patch: |
       - op: replace
